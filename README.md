@@ -12,7 +12,7 @@ The following file is the main file:
 - [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) 
 
 To evalute the bounds, all you need is to choose in the main file:
-1. Cardinalities of the channel state, input and output (FSC.y).
+1. Cardinalities of the channel state, input and output.
 2. Finite-state channel from the pre-defined list and its channel parameter.
 3. State evolution from the pre-defined list.
 4. Choose the graphs construction to use - if you are unsure, a good start is the default 'GP' with parameter '2'.
