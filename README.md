@@ -4,7 +4,7 @@ This repository contains an implementation of a technique to compute upper and l
 [Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063), by Oron sabag, Bashar Huleihel, Haim Permuter.
 
 # Convex optimization tool - CVX
-In the paper, it is shown that the upper bound is formalized as a standard convex optimization problem. For the implementation, we used a Matlab package called CVX with the Sedumi solver. To download the package and learn about what CVX is and how to use it, please visit the following website: [http://cvxr.com/cvx](http://cvxr.com/cvx/).  
+The upper bound is formalized as a standard convex optimization problem. For the implementation, we used a Matlab package called CVX with the Sedumi solver. To download the package and learn about what CVX is and how to use it, please visit the following website: [http://cvxr.com/cvx](http://cvxr.com/cvx/).  
 
 # Plug and play
 The following file is the main file:
