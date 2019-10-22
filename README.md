@@ -16,3 +16,4 @@ Under the file file "main_GTable.m" we choose the FSC model.
 3.) Open mainGTable.m file. Write the channel string in FSC.channel and the state string in FSC.state.
 4.) Choose graph method as described in the paper.
 5.) Choose size of graphs to run over
+[main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Main_GTable.m)
