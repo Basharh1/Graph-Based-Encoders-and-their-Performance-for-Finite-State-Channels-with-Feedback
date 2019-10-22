@@ -5,9 +5,9 @@ This repository contains an implementation of a technique to compute upper and l
 
 # Main files
 The following Matlab files, found in the home directory, are the most relevant for this project:  
-main_GTable.m  -  The main interface where you choose a FSC model and run the simulation to obtain upper and lower bounds.  
-Create_Channel.m - Here you can add your own channel model: P_{Y|X,S}.  
-Create_S.m contain the - Here you can add your own state evaluation function: S^+ = f(S,X,Y).  
+[main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Main_GTable.m)  -  The main interface where you choose a FSC model and run the simulation to obtain upper and lower bounds.  
+[Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Create_Channel.m) - Here you can add your own channel model: P_{Y|X,S}.  
+[Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Create_S.m) contain the - Here you can add your own state evaluation function: S^+ = f(S,X,Y).  
 
 # Instructions
 Under the file file "main_GTable.m" we choose the FSC model.
@@ -16,4 +16,4 @@ Under the file file "main_GTable.m" we choose the FSC model.
 3.) Open mainGTable.m file. Write the channel string in FSC.channel and the state string in FSC.state.
 4.) Choose graph method as described in the paper.
 5.) Choose size of graphs to run over
-[main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Main_GTable.m)
+
