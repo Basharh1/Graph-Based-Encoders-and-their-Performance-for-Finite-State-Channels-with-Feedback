@@ -11,7 +11,8 @@ The following Matlab files, found in the code directory, are the most relevant f
 
 # Instructions
 1.) Add a channel model by following the instruction in [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m) file. 
-2.) Add a state evaluation function by following the instruction in [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m) file.  
+2.) Add a state evaluation function by following the instruction in [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m) file.
+
 3.) Open [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) file. Then:
 - Type the cardinality of the state (FSC.s), the input (FSC.x) and the output (FSC.y).
 - Choose the channel model (FSC.channel), the channel state evaluation (FSC.state), and the channel parameter (FSC.Ch_para).
