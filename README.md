@@ -6,11 +6,15 @@ This repository contains an implementation of a technique to compute upper and l
 # Convex optimization tool- CVX
 Explain here that you need cvx + link to their website
 
-# Plug and play version
+# Plug and play
 The following file is the main file:
 - [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) 
 
-To evalute the bound with respect to  main interface where you set up the model and run it to obtain the bounds.  
+To evalute the bounds, all you need is to choose in the main file:
+1. Cardinalities of the channel state, input and output (FSC.y).
+2. Finite-state channel from the pre-defined list and its channel parameter.
+3. State evolution from the pre-defined list.
+4. Choose the graphs construction to use - if you are unsure, a good start is the default 'GP' with parameter '2'.
 
 # Instructions
 1.) Add a channel model by following the instructions in [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m).  
@@ -18,9 +22,7 @@ To evalute the bound with respect to  main interface where you set up the model 
 2.) Add a state evaluation function by following the instructions in [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m).
 
 3.) Open [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) file. Then:
-- Type the cardinalities of the channel state (FSC.s), the channel input (FSC.x), and the channel output (FSC.y).
-- Choose the channel model (FSC.channel), the state evolution (FSC.state), and the channel parameter (FSC.Ch_para).
-- Type which approach you would like to use for the choice of the Q-graphs (Graph.meth). The proposed approaches are described in the paper.
+
 
 - [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m) - In this function you can add a channel model: P_{Y|X,S}.  
 - [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m) - In this function you can add a state evolution: S^+ = f(S,X,Y).  
