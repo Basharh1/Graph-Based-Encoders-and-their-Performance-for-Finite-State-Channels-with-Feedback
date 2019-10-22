@@ -10,10 +10,10 @@ The following Matlab files, found in the home directory, are the most relevant f
 - [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Create_S.m) - Here you can add your own state evaluation function: S^+ = f(S,X,Y).  
 
 # Instructions
-Under the file file "main_GTable.m" we choose the FSC model.
-1.) Create a channel model in the file "Create_Channel.m" as described in the file.
-2.) Create a state evaluation function in the file "Create_S.m" as described in the file.
-3.) Open mainGTable.m file. Write the channel string in FSC.channel and the state string in FSC.state.
-4.) Choose graph method as described in the paper.
-5.) Choose size of graphs to run over
+Under the file file "main_GTable.m" we choose the FSC model.  
+1.) Create a channel model in the file "Create_Channel.m" as described in the file.  
+2.) Create a state evaluation function in the file "Create_S.m" as described in the file.  
+3.) Open mainGTable.m file. Write the channel string in FSC.channel and the state string in FSC.state.  
+4.) Choose graph method as described in the paper.  
+5.) Choose size of graphs to run over  
 
