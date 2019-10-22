@@ -4,10 +4,10 @@ This repository contains an implementation of a technique to compute upper and l
 [Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063), introduced by Oron sabag, Bashar Huleihel, Haim Permuter.
 
 # Main files
-The following Matlab files, found in the home directory, are the most relevant for this project:
-main_GTable.m 
+The following Matlab files, found in the home directory, are the most relevant for this project:\\
+main_GTable.m \\
 Create_Channel.m 
 Create_S.m contain the
 
 # Instructions
-Open the file "main_GTable.m". Choose a FSC by type a string name of the channel in FSC.channel.
+Under the file file "main_GTable.m" we. Choose a FSC by type a string name of the channel in FSC.channel.
