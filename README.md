@@ -17,5 +17,5 @@ The following Matlab files, found in the code directory, are the most relevant f
 3.) Open [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) file. Then:
 - Type the cardinalities of the channel state (FSC.s), the channel input (FSC.x), and the channel output (FSC.y).
 - Choose the channel model (FSC.channel), the channel state evaluation (FSC.state), and the channel parameter (FSC.Ch_para).
-- Type which approach you would like to use in order to choose the Q-graphs (Graph.meth). The proposed approaches are described in the paper.
+- Type which approach you would like to use for the choice of the Q-graphs (Graph.meth). The proposed approaches are described in the paper.
 
