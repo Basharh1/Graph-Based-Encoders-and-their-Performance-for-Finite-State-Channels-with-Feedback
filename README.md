@@ -1,7 +1,7 @@
 # Overview
 This repository contains an implementation of a technique to compute upper and lower bounds on the capacity of unifilar finite-state channels (FSCs) with feedback. The theoretical details of the technique are presented in the following paper:
 
-[Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063), introduced by Oron sabag, Bashar Huleihel, Haim Permuter.
+[Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063), by Oron sabag, Bashar Huleihel, Haim Permuter.
 
 # Main files
 The following Matlab files, found in the code directory, are the most relevant for this project:  
