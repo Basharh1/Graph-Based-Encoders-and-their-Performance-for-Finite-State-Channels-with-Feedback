@@ -16,4 +16,4 @@ To evalute the bounds, all you need is to choose in the main file:
 3. State evolution from the pre-defined list.
 4. Choose the graphs construction to use - if you are unsure, a good start is the default 'GP' with parameter '2'.  
 
-Lastly, you can add you own model for a finite-state channel by following the instructions given in the functions [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m) and [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m).
+Lastly, you can add you own model for a finite-state channel by following the instructions given in the Matlab functions [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m) and [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m).
