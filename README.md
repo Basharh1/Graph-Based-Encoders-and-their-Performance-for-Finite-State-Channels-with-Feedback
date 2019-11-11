@@ -1,7 +1,7 @@
 # Overview
 This repository contains an implementation of a technique to compute upper and lower bounds on the capacity of unifilar finite-state channels with feedback. The theoretical background of the technique is presented in the following paper:
 
-[Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063), by Oron sabag, Bashar Huleihel, Haim Permuter.
+[Graph-Based Encoders and their Performance for Finite-State Channels with Feedback](https://arxiv.org/abs/1907.08063).
 
 # Step 1 - install CVX
 For the implementation of the upper bound, we used CVX with the Sedumi solver. You should download the CVX package from  [http://cvxr.com/cvx](http://cvxr.com/cvx/).  
