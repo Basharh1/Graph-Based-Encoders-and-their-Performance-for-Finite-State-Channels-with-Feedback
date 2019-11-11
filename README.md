@@ -16,7 +16,7 @@ The Ising channel with parameter $0.5$.
 ??
 
 # Step 2.b - Choose a FSC from a list 
-To change the default parameters the bounds, all you need is to choose in the main file:
+To change the default parameters from the previous item, you need to choose in the main file:
 1. Cardinalities of the channel state, input and output.
 2. Finite-state channel from the pre-defined list and its channel parameter.
 3. State evolution from the pre-defined list.
