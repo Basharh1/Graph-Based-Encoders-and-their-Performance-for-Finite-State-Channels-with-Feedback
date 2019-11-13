@@ -22,7 +22,7 @@ elseif strcmp(FSC.channel,'BSC')
     Ch_Mat(:,1,2) = p;
     Ch_Mat(:,2,1) = p;
     
-elseif strcmp(FSC.channel,'ZS')
+elseif strcmp(FSC.channel,'Ising') || strcmp(FSC.channel,'Trapdoor')
     % Trapdoor Ch_Mat / Ising Ch_Mat
     % First state is Z-Ch_Mat and second state is S-Ch_Mat
     Ch_Mat(1,1,1) = 1;
