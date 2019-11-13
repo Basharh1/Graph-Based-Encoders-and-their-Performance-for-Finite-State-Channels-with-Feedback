@@ -24,4 +24,6 @@ To change the default parameters from the previous item, you need to choose in t
 4. Choose the graphs construction to use - if you are unsure, a good start is the default 'GP' with parameter '2'.  
 
 # Creating your own FSC
-You can add your own finite-state channel. There are two files to be edited ??? [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m) and [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m).
+You can add your own finite-state channel. There are two files to be edited:  
+1. [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m), where you add the channel transition.
+2. [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m), where you add the state evoulotion function.
