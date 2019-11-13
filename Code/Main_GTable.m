@@ -7,7 +7,7 @@ FSC.x       = 2; %channel input
 FSC.y       = 2; %channel output
 
 % The channel
-FSC.channel = 'ZS';     % 'BEC'/ 'BSC'/ 'ZS'(ising and Trapdoor)/ 'Pilot'/ 'Fading'/ 'DEC'/ 'Z_channel'
+FSC.channel = 'ZS';     % 'BEC'/ 'BSC'/ 'Ising'/ 'Trapdoor'/ 'Pilot'/ 'Fading'/ 'DEC'/ 'Z_channel'
 FSC.Ch_para = 0.5;      % Channel parameters: scalar or vector.
 
 % The state evolution
