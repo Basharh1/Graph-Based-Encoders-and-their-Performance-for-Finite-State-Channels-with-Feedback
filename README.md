@@ -11,9 +11,9 @@ The following file is the main file:
 - [main_GTable.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Main_GTable.m) 
 
 The default parameters will evaluate the bounds for the Ising channel with channel parameter 0.5:  
-FSC.channel  = 'Ising'  
-FSC.Ch_para  = 0.5  
-FSC.state    = 'S=X'  
+- FSC.channel  = 'Ising'  
+- FSC.Ch_para  = 0.5  
+- FSC.state    = 'S=X'  
 
 
 # Step 2.b - Choose a FSC from a list 
