@@ -25,5 +25,7 @@ To change the default parameters from the previous item, you need to choose in t
 
 # Creating your own FSC
 You can add your own finite-state channel. There are two files to be edited:  
-1. [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m), where you add the channel transition ![equation](http://www.sciweavers.org/tex2img.php?eq=P_%7BY%7CX%2CS%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0).
-2. [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m), where you add the state evolution <img src="http://www.sciweavers.org/tex2img.php?eq=P_%7BS%5E%2B%7CX%2CY%2CS%7D&bc=White&fc=Black&im=jpg&fs=12&ff=mathptmx&edit=0" align="center" border="0" alt="P_{S^+|X,Y,S}" width="60" height="21" />.  
+1. [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m), where you add the channel transition.
+2. [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m), where you add the state evolution.  
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=P_%7BS%5E%2B%7CX%2CY%2CS%7D&bc=White&fc=Black&im=jpg&fs=12&ff=mathptmx&edit=0" align="center" border="0" alt="P_{S^+|X,Y,S}" width="60" height="21" />
