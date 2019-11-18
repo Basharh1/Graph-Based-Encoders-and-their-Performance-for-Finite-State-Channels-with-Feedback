@@ -30,3 +30,6 @@ You can add your own finite-state channel. There are two files to be edited:
 
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=P_%7BY%7CX%2CS%7D&bc=White&fc=Black&im=jpg&fs=12&ff=fourier&edit=0" align="center" border="0" alt="P_{Y|X,S}" width="46" height="18" />
+
+
+<img src="http://www.sciweavers.org/tex2img.php?eq=P_%7BS%5E%2B%7CX%2CY%2CS%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P_{S^+|X,Y,S}" width="68" height="21" />
