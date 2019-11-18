@@ -26,4 +26,4 @@ To change the default parameters from the previous item, you need to choose in t
 # Creating your own FSC
 You can add your own finite-state channel. There are two files to be edited:  
 1. [Create_Channel.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_Channel.m), where you add the channel transition P_{Y|X,S}.
-2. [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m), where you add the state evolution function P_{S^+|X,Y,S}.
+2. [Create_S.m](https://github.com/Basharh1/Bounds_on_Finite_State_Channels/blob/master/Code/Create_S.m), where you add the state evolution P_{S^+|X,Y,S}.
